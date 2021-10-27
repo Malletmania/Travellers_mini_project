@@ -12,4 +12,5 @@ const sequelize = new Sequelize(
   }
 );
 
+// console.log(process.env.DB_NAME)
 module.exports = sequelize;
